@@ -37,7 +37,7 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(/assets/hero.jpg);
+    background-image: url(assets/hero.jpg);
     background-size: cover;
     background-position: center;
     contain: layout style paint;
@@ -639,4 +639,5 @@ section h2 {
     .mobile-nav a {
         font-size: 1.4rem;
     }
+
 }
