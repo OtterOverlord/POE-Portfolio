@@ -7,15 +7,12 @@
     <meta name="description" content="Hamza Cheema - Web Developer & Student Portfolio">
     <title>Hamza's Portfolio</title>
     
-    <!-- DNS Prefetch -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     
-    <!-- Preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    <!-- Critical Inline CSS -->
     <style>
         :root {
             --bg-dark: oklch(0.1 0.1 297);
@@ -156,11 +153,9 @@
         }
     </style>
     
-    <!-- Async Font Loading -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iceland&family=Press+Start+2P&display=swap" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Iceland&family=Press+Start+2P&display=swap"></noscript>
     
-    <!-- Preload and Async Load Main CSS -->
     <link rel="preload" href="styles/reset.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="styles/main.css" as="style" onload="this.rel='stylesheet'">
     <noscript>
@@ -169,7 +164,6 @@
     </noscript>
 </head>
 <body>
-    <!-- BACKDROP + MOBILE NAV -->
     <div class="menu-backdrop"></div>
     <nav class="mobile-nav">
         <a href="#Home">Home</a>
@@ -178,7 +172,7 @@
         <a href="#Assignments">Assignments</a>
     </nav>
     
-    <!-- HEADER -->
+
     <header id="Home">
         <div class="head">
             <a href="#Home">
@@ -190,7 +184,7 @@
                 <a href="#Work">Work</a>
                 <a href="#Assignments">Assignments</a>
             </nav>
-            <!-- HAMBURGER -->
+
             <div class="hamburger" role="button" aria-label="Toggle menu" aria-expanded="false">
                 <span></span>
                 <span></span>
@@ -204,7 +198,6 @@
         </div>
     </header>
     
-    <!-- ABOUT -->
     <section id="About">
         <h2>About Me</h2>
         <div class="about-flex">
@@ -219,7 +212,6 @@
         </div>
     </section>
     
-    <!-- WORK -->
     <section id="Work">
         <h2>Work</h2>
         <div class="work-flex">
@@ -228,7 +220,6 @@
         </div>
     </section>
     
-    <!-- ASSIGNMENTS -->
     <section id="Assignments">
         <h2>Assignments</h2>
         <div class="assignments-grid">
@@ -285,10 +276,64 @@
                     </div>
                 </a>
             </div>
+
+            <div class="assignment-item">
+                <a href="https://drive.google.com/drive/folders/1xEGfnrWQ8-srpvFsULzHEkM-wK3ertgi?usp=sharing">
+                    <p>Dice Project</p>
+                    <div class="assignments-img">
+                        <img src="assets/assignments/quarter2/dice.png" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="assignment-item">
+                <a href="https://drive.google.com/drive/folders/1uSQAhAZ3pivANcuKg4jZlEohotAvMUCg?usp=sharing">
+                    <p>Lego's</p>
+                    <div class="assignments-img">
+                        <img src="assets/assignments/quarter2/lego.png" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="assignment-item">
+                <a href="https://drive.google.com/drive/folders/1aUVzjL75bcykbUsk_IGU8cTKX_RtvAb2?usp=sharing">
+                    <p>Lego Dog</p>
+                    <div class="assignments-img">
+                        <img src="assets/assignments/quarter2/legodog.png" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="assignment-item">
+                <a href="https://drive.google.com/drive/folders/1Thhn25fZrqU9f81pC79cZE3d38SoBh0h?usp=sharing">
+                    <p>Do Nothing Machine</p>
+                    <div class="assignments-img">
+                        <img src="assets/assignments/quarter2/donothing.png" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="assignment-item">
+                <a href="https://drive.google.com/drive/folders/1Fc2Svn1EWqOaAWH0wqyXGpIwOPE4Dwai?usp=sharing">
+                    <p>Rolling Chassis</p>
+                    <div class="assignments-img">
+                        <img src="assets/assignments/quarter2/rollingchassis.png" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="assignment-item">
+                <a href="https://docs.google.com/presentation/d/1CdYqRpzssqKRU53_Ka9dtg9D-x6f9_9W/edit?usp=sharing&ouid=113943430893051626121&rtpof=true&sd=true">
+                    <p>Mousetrap Slides</p>
+                    <div class="assignments-img">
+                        <img src="assets/assignments/quarter2/slides.png" alt="">
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Optimized JavaScript -->
+    <!-- JavaScript -->
     <script>
         // Passive event listener support detection
         const supportsPassive = (() => {
